@@ -33,7 +33,7 @@ const Login: React.FC = () => {
       localStorage.setItem("auth-token", res.data.accessToken);
       setIsAuthenticated(true);
     } catch (error) {
-      const err = error as AxiosError;
+      const err = error as AxiosError<{ message: string }>;
 
       console.log("Status", err.status, err.code);
 
