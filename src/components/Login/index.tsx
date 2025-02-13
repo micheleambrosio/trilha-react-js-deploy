@@ -53,9 +53,9 @@ const Login: React.FC = () => {
 
   return (
     <div className="border border-gray-200 p-5 rounded">
-      <h1 className="text-2xl mb-2">Login</h1>
+      <h1 className="text-2xl mb-2">Sign in</h1>
       <p className="font-light text-sm text-gray-600 mb-5 mt-0">
-        Add your credentials and sign in
+        Add your credentials and sign in for view your posts
       </p>
       <form onSubmit={login}>
         <input

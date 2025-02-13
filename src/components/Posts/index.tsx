@@ -48,7 +48,7 @@ const Posts: React.FC = () => {
 
         setUserFullName(`${res.data.firstName} ${res.data.lastName}`);
       } catch {
-        alert("Error to fetch user data");
+        console.error("Error to fetch user data");
       }
     };
 
