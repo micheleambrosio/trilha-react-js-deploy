@@ -1,10 +1,10 @@
 import "./App.css";
-import Login from "./components/Login";
+import Posts from "./components/Posts";
 
 const App: React.FC = () => {
   return (
     <div className="container pt-10 mx-auto flex h-full items-center justify-center min-h-screen">
-      <Login />
+      <Posts />
     </div>
   );
 };
